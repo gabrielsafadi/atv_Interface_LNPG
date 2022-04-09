@@ -32,7 +32,7 @@ def solicitar():
 janela = Tk()
 janela.geometry('500x500')
 
-Label(janela, text='Buscar por banda/artista').pack()
+Label(janela, text='Buscar por band/artista').pack()
 busca = Entry(janela, bd=5)
 busca.pack()
 

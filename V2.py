@@ -28,7 +28,7 @@ def verificar_album():
   lb_nomedabanda.configure(text=f'Nome da Banda: {dados_cadastrados[1]}')
   lb_lancamento.configure(text=f'Álbum Lançamento: {dados_cadastrados[2]}')
 
-### 
+### Regra de Negócio
 def coletar_albuns_cadastrados():
   data = buscar_dados()
   nomes = []

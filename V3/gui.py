@@ -169,5 +169,3 @@ def criarTelaInicial():
   Button(telaInicial, text='Buscar por Data', command=tela_busca_por_ano, fg='white', font='arial 20', bg='#272727', width=20).place(x=90, y=320)
 
   telaInicial.mainloop()
-
-tela_cadastro()
